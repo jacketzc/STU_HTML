@@ -1,6 +1,14 @@
+打开vscode命令窗口：ctrl+shift+p
+
 光标左右移动（以单词为单位）：ctrl（右）+左右方向键
 
-新起一行并将光标移到新行：ctrl+enter
+在下方插入行：ctrl+enter
+在上方插入行：ctrl+shift+enter
 
 将当前行往上或者下移动一行：art+上下方向键
 
+删除当前行：ctrl+shift+k
+
+选中一个连续的块：ctrl+d
+
+代码提示：alt+/（需要重新绑定）

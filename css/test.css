@@ -1,0 +1,10 @@
+.container{
+    width: 300px;
+}
+h1{
+    background: linear-gradient(rgb(16, 143, 247),white);
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 35px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- 申明文档为H5规格 -->
+<html>
+    <!-- HTML页面的根元素 -->
+    <head>
+        <meta charset="utf-8">
+        <title>jacketzc</title>
+    </head>
+    <body>
+        <h1>表单</h1>
+        <p>表单用于收集用户的输入</p>
+        <p>表单的根元素为form，action属性指定表单的发送目标，method指定表单的发送方式</p>
+        <p>输入元素为input，通过指定输入元素的type，达到创建不同控件的目的</p>
+        <p>表单中的输入元素需要指定name，这是后台程序接收数据的分辨方式</p>
+        <p>文本域的type为text</p>
+        <p>密码为password</p>
+        <p>单选按钮为radio，除此之外还需要指定value属性，用于表示选中内容的含义，单选按钮需要指定相同的name</p>
+        <p>复选框为checkbox，同样需要指定value属性</p>
+        <p>提交按钮为submit，指定value属性来决定在网页中显示的内容</p>
+        <form action="#">
+            <input type="text" name="user">
+            <input type="password" name="password">
+            <input type="radio" name="sex" value="man">
+            <input type="radio" name="sex" value="woman">
+            <input type="checkbox" name="love" value="book">
+            <input type="checkbox" name="love" value="sport">
+            <input type="submit" value="提交">
+        </form>
+    </body>
+
+</html>
